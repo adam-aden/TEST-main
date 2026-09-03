@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test Repository",
+  "main": "src/script.js",
+  "scripts": {
+    "build": "cpx \"src/**/*\" dist",
+    "watch": "cpx \"src/**/*\" dist --watch"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "cpx": "^1.5.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
